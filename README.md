@@ -58,3 +58,13 @@ In this assignment, you will reinforce the following knowledge and skills:
 
 - What is your overall impression of the docs-as-code editorial workflow with Github and Markdown so far? Please jot down some specific triumphs, pitfalls, and questions to bring to class.
 - (How) Did the shared criteria about task orientation and WTGA help or hinder your editing, writing, and team discussions? Jot down a specific instance for class discussion.
+
+## FYI - You Can Contribute to GH's Docs
+
+If you start developing a good sense of the editorial workflow, and take some extra steps to learn about Github's docs-as-code approach, then you can gain some experience and contribute to their docs. Cool, huh?!
+
+Check out this blurb from their repo's README to learn more about it:
+
+  > We accept different types of contributions, including some that don't require you to write a single line of code. For detailed instructions on how to get started with our project, see "[About contributing to GitHub Docs](https://docs.github.com/en/contributing/collaborating-on-github-docs/about-contributing-to-github-docs)."
+  ...
+  If you're looking for a way to contribute, you can scan through our [help wanted board](https://github.com/github/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to find open issues already approved for work.
