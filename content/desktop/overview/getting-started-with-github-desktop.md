@@ -1,12 +1,14 @@
 ---
 title: Getting started with GitHub Desktop
 intro: 'Learn how to set up, authenticate, and configure {% data variables.product.prodname_desktop %} to allow you to contribute to projects directly from your machine.'
+Description: edited to included relevant background info, prereqs, headings, ordered and unordered lists, customization of rhetoric based on the company
 versions:
   feature: desktop
 redirect_from:
   - /desktop/installing-and-configuring-github-desktop/getting-started-with-github-desktop
   - /desktop/guides/getting-started
 shortTitle: Get started
+mention: maddielyn1216-glitch jckinsey01 pnekrasova
 ---
 
 ## Introduction
