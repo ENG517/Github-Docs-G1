@@ -1,6 +1,7 @@
 ---
-title: Cloning and forking repositories from GitHub Desktop
+title: Cloning and forking repositories from GitHub Desktop for Novice Users
 intro: 'You can use {% data variables.product.prodname_desktop %} to clone and fork repositories that exist on {% data variables.product.prodname_dotcom %}.'
+Description: edited to included relevant background info, prereqs, headings, ordered and unordered lists, customization of rhetoric based on the company
 redirect_from:
   - /desktop/contributing-to-projects/cloning-a-repository-from-github-desktop
   - /desktop/contributing-to-projects/cloning-and-forking-repositories-from-github-desktop
@@ -9,6 +10,7 @@ redirect_from:
 versions:
   feature: desktop
 shortTitle: Clone & fork from Desktop
+Mention: maddielyn1216-glitch jckinsey01 pnekrasova
 ---
 ## About local repositories
 
