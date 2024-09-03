@@ -11,17 +11,31 @@ shortTitle: Add a repository
 ---
 {% tip %}
 
-**Tip:** You can add a Git repository from your local computer to GitHub Desktop by dragging the folder onto the {% data variables.product.prodname_desktop %} window. If you drag multiple Git folders into {% data variables.product.prodname_desktop %} at the same time, each folder will be added as a separate Git repository.
+## Adding a Repository From Your Local Computer to Github Desktop
 
-{% endtip %}
+This tutorial will explain how to add a repository to Github Desktop, even if it did not originate from Github Desktop
+
+There are two different methods that can be used to achieve this.
+
+### Method #1
+
+This method will be the same for both Windows and Mac systems
+
+1) Have the Git repository open in one window, and Github Desktop open in another.
+2) Drag the Git repository folder from the first window onto the {% data variables.product.prodname_desktop %} window
+3) You can also add multiple Git folders at the same time by dragging them into {% data variables.product.prodname_desktop %}. Each folder will be added as a separate Git repository.
+ 
 
 {% mac %}
 
+### Method #2
+
 1. In the menu bar, select **File**, then click **Add Local Repository**.
    ![Screenshot of the menu bar on a Mac. The "File" dropdown menu is open, and an option labeled "Add Local Repository" is highlighted with an orange outline.](/assets/images/help/desktop/add-local-repository-mac.png)
-1. In the "Add Local Repository" window, click **Choose...**, then use the Finder window to navigate to the local repository you want to add.
+2. In the "Add Local Repository" window, click **Choose...**, then use the Finder window to navigate to the local repository you want to add.
    ![Screenshot of the "Add Local Repository" window. Next to the "repository path" field, a button, labeled "Choose", is highlighted with an orange outline.](/assets/images/help/desktop/add-repo-choose-button-mac.png)
-1. When you have chosen the local repository, in the "Add Local Repository" window, click **Add Repository**.
+3. When you have chosen the local repository, in the "Add Local Repository" window, click **Add Repository**.
+4. And that's it! You have added a repository from your computer to Github Desktop!
 
 {% endmac %}
 
@@ -32,5 +46,6 @@ shortTitle: Add a repository
 1. In the "Add local repository" window, click **Choose...**, then use Windows Explorer to navigate to the local repository you want to add.
    ![Screenshot of the "Add local repository" window. Next to the "repository path" field, a button, labeled "Choose", is highlighted with an orange outline.](/assets/images/help/desktop/add-repo-choose-button-mac.png)
 1. Click **Add repository**.
+1. And that's it! You have added a repository from your computer to Github Desktop!
 
 {% endwindows %}
