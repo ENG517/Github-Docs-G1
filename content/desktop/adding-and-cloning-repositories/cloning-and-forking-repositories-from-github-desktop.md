@@ -12,27 +12,52 @@ shortTitle: Clone & fork from Desktop
 ---
 ## About local repositories
 
-Repositories on {% data variables.product.prodname_dotcom %} are remote repositories. You can clone or fork a repository with {% data variables.product.prodname_desktop %} to create a local repository on your computer.
+### Before reading this, you should already:
 
-You can create a local copy of any repository on {% data variables.product.product_name %} that you have access to by cloning the repository. If you own a repository or have write permissions, you can sync between the local and remote locations. For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop)."
+* Have Github and Visual Studio Code installed on your computer
+* Have a folder pathway set up locally on your computer to store your github files
+* Know what a repository is and how to create a new one
 
-When you clone a repository, any changes you push to {% data variables.product.product_name %} will affect the original repository. To make changes without affecting the original project, you can create a separate copy by forking the repository. You can create a pull request to propose that maintainers incorporate the changes in your fork into the original upstream repository. For more information, see "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)."
 
+### What are remote repositories?
+ * Repositories not stored on your computer
+ * Can be found here: {% data variables.product.prodname_dotcom %} 
+ 
+ ### Cloning or Forking a Remote Repository
+ *  When we are working together on software documentation, sometimes you need to edit a file stored on a remote repository but need to get the file onto your own computer first. Cloning or forking a repository allows you to make changes independently without altering the original document until you're ready send your edits to your team for review.
+* You can clone or fork a repository with {% data variables.product.prodname_desktop %} to create a local repository on your computer.
+* You can create a local copy of any repository on {% data variables.product.product_name %} that you have access to by cloning the repository. 
+  
+#### Pro Tip:
+If you own a repository or have write permissions, you can sync between the local and remote locations. For more information, see "[AUTOTITLE](/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop)."
+
+### Cloning vs. Forking
+* #### Cloning:
+  When you clone a repository, any changes you push to {% data variables.product.product_name %} will affect the original repository. 
+  
+* #### Forking
+  To make changes without affecting the original project, you can create a separate copy by forking the repository. You can create a pull request to propose that maintainers incorporate the changes in your fork into the original upstream repository. For more information, see "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)."
+
+#### Note:
 When you try to use {% data variables.product.prodname_desktop %} to clone a repository that you do not have write access to, {% data variables.product.prodname_desktop %} will prompt you to create a fork automatically. You can choose to use your fork to contribute to the original upstream repository or to work independently on your own project. Any existing forks default to contributing changes to their upstream repositories. You can modify this choice at any time. For more information, see "[Managing fork behavior](#managing-fork-behavior)".
 
 You can also clone a repository directly from {% data variables.product.prodname_dotcom %} or {% data variables.product.prodname_enterprise %}. For more information, see "[AUTOTITLE](/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)".
 
 ## Cloning a repository
-
-{% data reusables.desktop.choose-clone-repository %}
-{% data reusables.desktop.cloning-location-tab %}
-{% data reusables.desktop.cloning-repository-list %}
-{% data reusables.desktop.choose-local-path %}
-{% data reusables.desktop.click-clone %}
+#### Steps:
+1. {% data reusables.desktop.choose-clone-repository %}
+2. {% data reusables.desktop.cloning-location-tab %}
+3. {% data reusables.desktop.cloning-repository-list %}
+4. {% data reusables.desktop.choose-local-path %}
+5. {% data reusables.desktop.click-clone %}
 
 ## Forking a repository
 
-You can fork a repository on {% data variables.product.prodname_dotcom_the_website %} or in {% data variables.product.prodname_desktop %}. For information about forking on {% data variables.product.prodname_dotcom_the_website %}, see "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui)."
+You can fork a repository on:
+ * {% data variables.product.prodname_dotcom_the_website %} or 
+ * {% data variables.product.prodname_desktop %}. 
+
+For information about forking on {% data variables.product.prodname_dotcom_the_website %}, see "[AUTOTITLE](/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo?tool=webui)."
 
 {% data reusables.desktop.forking-a-repo %}
 
@@ -45,12 +70,16 @@ You can change how a fork behaves with the upstream repository in {% data variab
 
 ## Creating an alias for a local repository
 
-You can create an alias for a local repository to help differentiate between repositories of the same name in {% data variables.product.prodname_desktop %}. Creating an alias does not affect the repository's name on {% data variables.product.prodname_dotcom %}. In the repositories list, aliases appear in italics.
+You can create an alias for a local repository to help differentiate between repositories of the same name in {% data variables.product.prodname_desktop %}. 
+
 
 1. In the upper-left corner of {% data variables.product.prodname_desktop %}, to the right of the current repository name, click {% octicon "triangle-down" aria-label="The triangle-down icon" %}.
 1. Right-click the repository you want to create an alias for, then click **Create Alias**.
 1. Type an alias for the repository.
 1. Click **Create Alias**.
+
+#### Note:
+Creating an alias does not affect the repository's name on {% data variables.product.prodname_dotcom %}. In the repositories list, aliases appear in italics.
 
 ## Further reading
 
