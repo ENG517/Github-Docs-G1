@@ -15,6 +15,8 @@ shortTitle: Clone a GitHub repo
 
 {% endtip %}
 
+Cloning a repository creates a copy on your local machine, and can make it easier to add and edit files, make commits, and merge.
+
 1. Sign in to {% data variables.location.product_location %} and {% data variables.product.prodname_desktop %} before you start to clone.
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.open-with-github-desktop %}
@@ -24,7 +26,7 @@ shortTitle: Clone a GitHub repo
 
    {% note %}
 
-   **Note:** If the repository is configured to use LFS, you will be prompted to initialize {% data variables.large_files.product_name_short %}.
+   **Note:** If the repository is configured to use Large File Storage or LFS, you will be prompted to initialize {% data variables.large_files.product_name_short %}.
 
    {% endnote %}
 
